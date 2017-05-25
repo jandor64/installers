@@ -14,6 +14,7 @@ class Installer extends LibraryInstaller
      * @var array
      */
     private $supportedTypes = array(
+        'webkey'       => 'WebkeyInstaller',
         'aimeos'       => 'AimeosInstaller',
         'asgard'       => 'AsgardInstaller',
         'attogram'     => 'AttogramInstaller',
